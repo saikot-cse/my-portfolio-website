@@ -1,5 +1,5 @@
 /* Google Fonts  */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Yeseva+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Yeseva+One&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -49,11 +49,15 @@ body {
   font-size: 18px;
 }
 /* Mission Section  */
+.mission {
+  margin-bottom: 86px;
+}
 .mission-header {
   text-align: center;
   font-size: 48px;
   margin-bottom: 48px;
   font-weight: 700;
+  color: #13103A;
 }
 .mission-image {
   width: 40%;
@@ -63,7 +67,6 @@ body {
   width: 141px;
   height: 141px;
   margin-bottom: 12px;
-  
 }
 .card-item {
   padding: 0 20px;
@@ -85,11 +88,64 @@ body {
   width: 315px;
   height: 153px;
 }
-.activity-header{
+.activity-header {
   font-size: 24px;
   margin-bottom: 16px;
 }
-.activity-text{
+.activity-text {
   margin-bottom: 45px;
   font-size: 16px;
+}
+/* Communication sextion  */
+.communication{
+  margin-bottom: 105px;
+  background-image: url(../images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.communication-coding-image img {
+  width: 400px;
+  height: 400px;
+  margin-left: 125px;
+}
+.community-header {
+  font-size: 36px;
+}
+.communication-text{
+  margin-left: 72px;
+  margin-right: 125px;
+}
+.communication-project-image img{
+  width: 400px;
+  height: 400px;
+  margin-right: 125px;
+}
+.communication-project-text{
+  margin-right: 72px;
+  margin-left: 125px;
+}
+.communication-repeat{
+  margin-bottom: 86px;
+  background-image: url(../images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+/* footer section  */
+.footer-title{
+  font-family: 'Lobster', cursive;
+  font-size: 36px;
+}
+.footer-body{
+  top: 92%;
+  text-align: center;
+  background-color: #0B0D17;
+  color: #fff;
+  padding-top: 39px;
+  padding-bottom: 42px;
+}
+.footer-text-color{
+  color: #FF5959;
+}
+.footer-text{
+  font-size: 14px;
 }
