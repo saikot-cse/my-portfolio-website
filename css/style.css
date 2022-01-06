@@ -27,7 +27,6 @@ body {
   font-size: 60px;
   border-left: 5px solid #ff5959;
   font-family: "Yeseva One", cursive;
-  border-image-outset: 0;
   margin-bottom: 5px;
   padding-left: 13px;
   color: #333333;
@@ -111,7 +110,7 @@ body {
 }
 .community-header {
   font-size: 36px;
-  color:#333333;
+  color: #333333;
 }
 .communication-text {
   margin-left: 72px;
@@ -133,26 +132,22 @@ body {
   background-position: right;
 }
 /* Projects section  */
-.my-projects{
-  /* background-color: red; */
-}
 .projects {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 50px 20px;
-  
 }
 .project-title {
   text-align: center;
   font-size: 22px;
 }
-.project-details{
+.project-details {
   border-radius: 20px;
   padding: 15px;
   cursor: pointer;
 }
-.project-details img{
+.project-details img {
   height: 300px;
   width: 345px;
   border-radius: 20px;
@@ -175,4 +170,5 @@ body {
 }
 .footer-text {
   font-size: 14px;
+  margin-top: 20px;
 }
