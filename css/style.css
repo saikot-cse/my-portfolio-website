@@ -1,5 +1,5 @@
 /* Google Fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Yeseva+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Yeseva+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -26,10 +26,11 @@ body {
 .header-text {
   font-size: 60px;
   border-left: 5px solid #ff5959;
-  border-radius: 3px;
   font-family: "Yeseva One", cursive;
+  border-image-outset: 0;
   margin-bottom: 5px;
   padding-left: 13px;
+  color: #333333;
 }
 .colored-text {
   color: #ffad5a;
@@ -52,12 +53,12 @@ body {
 .mission {
   margin-bottom: 86px;
 }
-.mission-header {
+.header-title {
   text-align: center;
   font-size: 48px;
   margin-bottom: 48px;
   font-weight: 700;
-  color: #13103A;
+  color: #13103a;
 }
 .mission-image {
   width: 40%;
@@ -97,7 +98,7 @@ body {
   font-size: 16px;
 }
 /* Communication sextion  */
-.communication{
+.communication {
   margin-bottom: 105px;
   background-image: url(../images/shapes/shape-1.png);
   background-repeat: no-repeat;
@@ -110,42 +111,68 @@ body {
 }
 .community-header {
   font-size: 36px;
+  color:#333333;
 }
-.communication-text{
+.communication-text {
   margin-left: 72px;
   margin-right: 125px;
 }
-.communication-project-image img{
+.communication-project-image img {
   width: 400px;
   height: 400px;
   margin-right: 125px;
 }
-.communication-project-text{
+.communication-project-text {
   margin-right: 72px;
   margin-left: 125px;
 }
-.communication-repeat{
+.communication-repeat {
   margin-bottom: 86px;
   background-image: url(../images/shapes/shape-1.png);
   background-repeat: no-repeat;
   background-position: right;
 }
+/* Projects section  */
+.my-projects{
+  /* background-color: red; */
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50px 20px;
+  
+}
+.project-title {
+  text-align: center;
+  font-size: 22px;
+}
+.project-details{
+  border-radius: 20px;
+  padding: 15px;
+  cursor: pointer;
+}
+.project-details img{
+  height: 300px;
+  width: 345px;
+  border-radius: 20px;
+}
 /* footer section  */
-.footer-title{
-  font-family: 'Lobster', cursive;
+.footer-title {
+  font-family: "Lobster", cursive;
   font-size: 36px;
 }
-.footer-body{
+.footer-body {
   top: 92%;
   text-align: center;
-  background-color: #0B0D17;
+  background-color: #0b0d17;
   color: #fff;
   padding-top: 39px;
   padding-bottom: 42px;
 }
-.footer-text-color{
-  color: #FF5959;
+.footer-text-color {
+  color: #ff5959;
 }
-.footer-text{
+.footer-text {
   font-size: 14px;
 }
